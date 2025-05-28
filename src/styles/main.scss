@@ -1,15 +1,8 @@
-body {
-  font-family: sans-serif;
-  background: #f6f6f6;
-  margin: 0;
-  padding: 30px;
-}
+@use './variables';
+@use './chart';
 
-.chart-wrapper {
-  padding: 2rem;
-  max-width: 1000px;
-  margin: auto;
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+body {
+  font-family: variables.$font-family;
+  background-color: variables.$color-background;
+  color: variables.$color-text;
 }

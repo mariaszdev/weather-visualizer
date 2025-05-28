@@ -1,0 +1,35 @@
+@use './variables';
+
+.chart-wrapper {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+  padding: 0.5rem 2rem;
+  margin: 4rem 6rem;
+  @media (max-width: variables.$bp-2xl) {
+    margin: 3rem 3rem;
+  }
+  @media (max-width: variables.$bp-lg) {
+    margin: 2rem 2rem;
+  }
+  @media (max-width: variables.$bp-sm) {
+    padding: 0.2rem 1.2rem;
+    margin: 1rem 1rem;
+  }
+
+  h2 {
+    font-size: variables.$font-size-title;
+    margin-bottom: 1rem;
+  }
+
+  svg text {
+    font-family: variables.$font-family;
+    font-size: variables.$font-size-tick;
+    fill: variables.$color-text;
+  }
+
+  .recharts-tooltip-wrapper {
+    font-size: 0.8rem;
+  }
+}

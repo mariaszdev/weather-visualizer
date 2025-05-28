@@ -54,7 +54,6 @@ This project currently displays **daily max/min temperatures for Vienna** in **2
 
 ## 🛠️ Planned Improvements
 
-- ✨ Improve chart styling (colors, fonts, grid lines)
 - 📅 Add option to select a year to display
 - 📊 Add toggle for:
   - Daily view (current)
@@ -62,7 +61,6 @@ This project currently displays **daily max/min temperatures for Vienna** in **2
   - Yearly averages
 - 🔁 Add support for overlaying multiple years
 - 🌍 Add option to select different cities
-- 📱 Improve responsive layout for mobile/tablet
 - 📈 Explore different chart styles (bar chart, area chart, etc.)
 - 🔍 Add filters for specific month, year, or decade
 
