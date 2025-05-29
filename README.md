@@ -8,8 +8,8 @@ This project currently displays **daily max/min temperatures for Vienna** in **2
 
 ## 🚀 Features
 
-- 📈 Interactive line chart showing **daily min/max temperatures** for Vienna for 2024
-- 🗓️ X-axis labeled with **months**
+- 📈 Interactive line chart showing **daily min/max temperatures** for a year in Vienna
+- 📅 Year selector to explore historical temperature trends from different years
 
 ---
 
@@ -54,8 +54,8 @@ This project currently displays **daily max/min temperatures for Vienna** in **2
 
 ## 🛠️ Planned Improvements
 
-- 📅 Add option to select a year to display
-- 📊 Add toggle for:
+- 🌐 Add language switcher to toggle between English and German interface
+- 📅 Add toggle for:
   - Daily view (current)
   - Monthly averages
   - Yearly averages

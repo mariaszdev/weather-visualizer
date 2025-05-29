@@ -1,0 +1,12 @@
+.control-panel {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: fit-content;
+  padding: 0.7rem;
+}

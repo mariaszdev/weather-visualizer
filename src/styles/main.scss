@@ -1,8 +1,33 @@
-@use './variables';
-@use './chart';
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font-family: variables.$font-family;
   background-color: variables.$color-background;
   color: variables.$color-text;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 1.5rem 6rem;
+
+  @media (max-width: variables.$bp-2xl) {
+    margin: 1.5rem 3rem;
+  }
+
+  @media (max-width: variables.$bp-lg) {
+    margin: 1.5rem 2rem;
+  }
+
+  @media (max-width: variables.$bp-sm) {
+    margin: 1rem;
+    gap: 1rem;
+  }
 }

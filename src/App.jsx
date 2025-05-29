@@ -1,10 +1,9 @@
-import './styles/main.scss';
-import TemperatureChart from './components/TemperatureChart';
+import WeatherVisualizer from './components/WeatherVisualizer';
 
 function App() {
   return (
-    <div>
-      <TemperatureChart />
+    <div style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+      <WeatherVisualizer />
     </div>
   );
 }
