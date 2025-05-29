@@ -13,6 +13,13 @@ This project currently displays **daily max/min temperatures for Vienna** in **2
 
 ---
 
+## 🌍 Live Demo
+
+Check out the live version of the app here:  
+👉 [weather-visualizer-azure.vercel.app](https://weather-visualizer-azure.vercel.app/)
+
+---
+
 ## 🛠️ Tech Stack
 
 | Layer    | Technology                            |
